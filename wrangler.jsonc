@@ -1,0 +1,9 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "kixel-me",
+	"compatibility_date": "2026-11-23",
+	"assets": {
+		"directory": "./public"
+	},
+	"routes": [{ "pattern": "kixel.me", "custom_domain": true }]
+}

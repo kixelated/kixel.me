@@ -1,0 +1,12 @@
+{
+	"name": "kixel-me",
+	"private": true,
+	"description": "kixel.me: Luke Curley's links page",
+	"scripts": {
+		"dev": "wrangler dev --port 8788",
+		"deploy": "wrangler deploy"
+	},
+	"devDependencies": {
+		"wrangler": "^4.166.0"
+	}
+}
